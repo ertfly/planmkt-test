@@ -1,0 +1,7 @@
+**.DS_Store
+
+/docker-compose.yml
+/.db/*.*
+/.db/*
+/mongo-init.js
+/back/faceid/images/*
