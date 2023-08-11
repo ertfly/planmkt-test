@@ -60,10 +60,10 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        /* 'users' => [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
-        ],
+        ], */
 
         // 'users' => [
         //     'driver' => 'database',
@@ -87,12 +87,12 @@ return [
     */
 
     'passwords' => [
-        'users' => [
+        /* 'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
-        ],
+        ], */
     ],
 
     /*
